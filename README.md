@@ -1,1 +1,1 @@
-# Kidousity-Chatbot
+# Kidousity chatbot
