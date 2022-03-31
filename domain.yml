@@ -1,0 +1,830 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - video_games
+  - sun_color
+  - dinosaurs_go
+  - late_parents
+  - high_risk
+  - water
+  - people_sick
+  - god_house
+  - cry
+  - olden_days
+  - swear_words
+  - thoughts_origin
+  - money
+  - moon_cheese
+  - sun_bright
+  - sun_night
+  - moon_day
+  - stars_morning
+  - stars_sky
+  - stars_do
+  - earth_largest
+  - many_planets
+  - pluto_planet
+  - eight_planets
+  - hottest_planet
+  - coldest_planet
+  - color_sky
+  - color_hair
+  - ocean_water
+  - colors_rainbow
+  - king_jungle
+  - many_clouds
+  - far_sun
+  - days_week
+  - seven_week
+  - hours_day
+  - is_dusk
+  - sun_rise
+  - sun_set
+  - moon_rise
+  - moon_set
+  - months_year
+  - months_of_year
+  - seasons_number
+  - seasons_description
+  - coldest_season
+  - hottest_season
+  - trees_shed
+  - in_spring
+  - in_autumn
+  - we_breathe
+  - shortest_month
+  - leap_year
+  - days_year
+  - weeks_year
+  - days_leap_year
+  - largest_continent
+  - smallest_continent
+  - how_continents
+  - what_continents
+  - shape_earth
+  - color_cloud
+  - use_trees
+  - cut_trees
+  - col_leaves
+  - legs_spider
+  - ants_bite
+  - freeze_water
+  - col_stars
+  - eat_veggies
+  - drink_milk
+  - lions_zoo
+  - col_snow
+  - dog_lick
+  - cat_turn
+  - christ_mas
+  - what_christmas
+  - planet_ring
+  - country_kangaroos
+  - tallest_mountain
+  - largest_mammal
+  - what_herbivore
+  - plants_living
+  - what_carnivore
+  - what_omnivore
+  - ostrich_fly
+  - penguin_fly
+  - penguin_bird
+  - tallest_animal
+  - plants_meat
+  - plants_grow
+  - plants_grow_from
+  - deers_carnivores
+  - milk_drink
+  - crow_eat
+  - animal_wool
+  - slowest_animal
+  - color_frog
+  - frogs_live
+  - much_sugar
+  - parrots_talk
+  - tv_bad
+  - fastest_animal
+  - go_school
+  - do_homework
+  - listen_parents
+  - eyes_have
+  - ears_have
+  - ears_do
+  - eyes_do
+  - col_sunflower
+  - live_oxygen
+  - live_water
+  - live_food
+  - nose_help
+  - five_senses
+  - tongue_help
+  - traffic_signal
+  - change_color
+  - teeth_have
+  - teeth_do
+  - use_food
+  - legs_have
+  - hands_have
+  - legs_do
+  - fingers_legs_have
+  - fingers_hands_have
+  - col_blood
+  - heart_do
+  - much_sleep
+  - many_bones
+  - red_light
+  - green_light
+  - col_zebra
+  - cross_road
+  - heart_beat
+  - house_ice
+  - largest_ocean
+  - red_planet
+  - thirty_days
+  - thirty_one_days
+  - letters_english
+  - vowels_english
+  - breathe_in
+  - ship_desert
+  - col_peace
+  - books_place
+  - festival_lights
+  - festival_colors
+  - largest_forest
+  - land_sun
+  - a_t_m
+  - skin_help
+  - why_sneeze
+  - food_diges
+  - ghosts_real
+  - monsters_real
+  - waters_taste
+  - waters_color
+  - garbage_streets
+  - feed_animals
+  - col_apple
+  - col_banana
+  - col_mango
+  - col_grapes
+  - car_have
+  - bicycle_have
+  - tricycle_have
+  - group_lions
+  - group_wolves
+  - group_sheep
+  - sick_people
+  - treat_ment
+  - things_fall
+  - shape_wheel
+  - shape_pizza
+  - bees_make
+  - silk_from
+  - sharks_car
+  - measure_temp
+  - use_write
+  - humans_tails
+  - go_space
+  - tom_veg
+  - fish_breathe
+  - fish_carnivore
+  - universe_start
+  - ins_time
+  - cars_run
+  - group_fish
+  - paper_from
+  - cow_eat
+  - ani_talk
+  - fish_land
+  - dogs_live
+  - fast_transport
+  - walk_water
+  - transport_water
+  - baby_frog
+  - baby_dog
+  - baby_cat
+  - out_act
+
+
+
+responses:
+  utter_greet:
+  - text: "Hello! Ask me anything!"
+
+
+  utter_video_games:
+  - text: "Video games are good , but don’t play it for long hours and your eyes will get tired. Playing outdoor sports is also fun."
+
+  utter_sun_color:
+  - text: "The sun is yellow in color"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_dinosaurs_go:
+  - text: "All of the dinosaurs died. We call this going extinct. A million years ago, a huge rock from outer space crashed into our earth and all dinosaurs became extinct."
+
+
+  utter_late_parents:
+  - text: "Your parents are older than you and hence their body requires less sleep. The more early you sleep, the more happy your brain is."
+
+
+  utter_water:
+  - text: "Water majorly comes from oceans,rivers, lakes and ponds. The earth is 97 percent water."
+
+  utter_people_sick:
+    - text: "Its because of germs. Germs enter our body through the air we breathe, the food we eat and the wqater we drink. So always wash your hands and drink clean water. Our bosy aleays fights these germs. But when it cant, we get sick."
+
+  utter_god_house:
+    - text: "God lives in heaven. Hes always looking over you from there."
+
+  utter_cry:
+    - text: "Sometimes we feel really sad. So crying helps us show other people that we are sad. Our parents , teachers and friends know we are sad when we cry."
+
+  utter_olden_days:
+    - text: "No everything was always colourful. We can see these colors because of our eyes."
+
+  utter_swear_words:
+    - text: "No it is not good to say swear words. Swear words are bad.You make people sad when you say swear words."
+  
+  utter_thoughts_origin:
+    - text: "Thoughts come from our brain."
+
+  utter_money:
+    - text: "Money is something we use to buy everything we need. Without money we cannot buy things."
+
+  utter_moon_cheese:
+    - text: "No the moon is not made of cheese."
+
+  utter_sun_bright:
+    - text: "The sun is a big red ball of fire in the sky. That’s why it is so bright. Don’t look directly at it."
+
+  utter_sun_night:
+    - text: "The sun does not go anywhere but it stays in the same place. Our earth rotates away from the sun."
+
+  utter_moon_day:
+    - text: "The moon is present during the day also. And sometimes can be seen during the day. "
+
+  utter_stars_morning:
+    - text: "Stars cannot be seen in the morning because the sun is so bright. "
+
+  utter_stars_sky:
+    - text: "There are uncountable stars in the sky "
+
+  utter_stars_do:
+    - text: "The stars light up the sky in the night "
+
+  utter_earth_largest:
+    - text: "No earth is not the largest planet."
+
+  utter_many_planets:
+    - text: "There are nine planets"
+
+  utter_pluto_planet:
+    - text: "Pluto used to be a planet. But its not a planet today."
+
+  utter_eight_planets:
+    - text: "The eight planets are Mercury,Venus , Earth, Mars ,Jupiter, Saturn, Uranus , and Neptune."
+  utter_hottest_planet:
+    - text: "No mercury is not the hottest planet.Venus is."
+  
+  utter_coldest_planet:
+    - text: "Uranus is the coldest planet."
+
+  utter_color_sky:
+    - text: "The sky is blue in color"
+
+  utter_color_hair:
+    - text: "Hair is black in colour."
+
+  utter_ocean_water:
+    - text: "The ocean water is salty. Don’t drink it as it is very salty and dirty as well."
+
+  utter_colors_rainbow:
+    - text: "A rainbow has seven colours"
+
+  utter_king_jungle:
+    - text: "Lion is the king of the jungle."
+
+  utter_many_clouds:
+    - text: "There are uncountable number of clouds in the sky."
+
+  utter_far_sun:
+    - text: "The sun is 149.22 million kilometeres from the earth."
+
+  utter_days_week:
+    - text: "A week has seven days."
+
+  utter_seven_week:
+    - text: "The seven days are Monday, Tuersday, Wednesday,Thurday, Firday, Saturday and Sunday"
+
+  utter_hours_day:
+    - text: "There are 24 hours in a day."
+
+  utter_is_dusk:
+    - text: "Dusk is the time between sunset and nightfall."
+
+  utter_sun_rise:
+    - text: "Sun rises in the east."
+
+  utter_sun_set:
+    - text: "Sun sets in the west."
+
+  utter_moon_rise:
+    - text: "The moon rises in the east"
+  utter_moon_set:
+    - text: "The moon sets in the west"
+
+  utter_months_year:
+    - text: "A year has 12 months."
+
+  utter_months_of_year:
+    - text: "The months are January, February, March, April, May , June , July , August, September, October, November and December."
+
+  utter_seasons_number:
+    - text: "There are four seasons."
+
+  utter_seasons_description:
+    - text: "The four seasons are Summer, Winter, Spring and Autumn."
+
+  utter_coldest_season:
+    - text: "Winter is the coldest season."
+
+  utter_hottest_season:
+    - text: "Summer is the hottest season."
+
+  utter_trees_shed:
+    - text: "Trees shed their leaves in autumn."
+
+  utter_in_spring:
+    - text: "In spring flowers bloom and trees begin to grow."
+
+  utter_in_autumn:
+    - text: "Trees shed their leaves in autumn."
+
+  utter_we_breathe:
+    - text: "We breathe in oxygen"
+
+  utter_shortest_month:
+    - text: "February is the shortest month"
+
+  utter_leap_year:
+    - text: "A leap year is when February has 29 days instaed of 28."
+
+  utter_days_year:
+    - text: "A year has 365 days"
+
+  utter_weeks_year:
+    - text: "Most years have 52 weeks or more. A leap year has more weeks."
+
+  utter_days_leap_year:
+    - text: "A leap year has 366 days."
+
+  utter_largest_continent:
+    - text: "Asia is the largest continent"
+
+  utter_smallest_continent:
+    - text: "Australia is the largest continent"
+
+  utter_how_continents:
+    - text: "There are seven continents in the world"
+
+  utter_what_continents:
+    - text: "The continents are Asia, Africa, Europe, North America, South America, Australia and Antarctica."
+
+  utter_shape_earth:
+    - text: "The earth is round in shape"
+
+  utter_color_cloud:
+    - text: "Clouds are white in colour"
+
+  utter_use_trees:
+    - text: "Trees provide us shade, purify our air and also provide us with resources like paper, wood and rubber."
+
+  utter_cut_trees:
+    - text: "No you should not cut trees. Cutting trees damages our environment."
+
+  utter_col_leaves:
+    - text: "Leaves ae green in colour"
+  utter_legs_spider:
+    - text: "A spider has eight legs"
+
+  utter_ants_bite:
+    - text: "Red ants bite. But black ants don’t."
+
+  utter_freeze_water:
+    - text: "When we freeze water we get ice."
+
+  utter_col_stars:
+    - text: "Stars are white in colour."
+
+  utter_eat_veggies:
+    - text: "Vegetables provide our body with vitamins and nutrients. They make our body healthy."
+
+  utter_drink_milk:
+    - text: "Milk makes the bones in the body strong. It also makes out teeth strong. Drink milk to be strong."
+
+  utter_lions_zoo:
+    - text: "Lions eat meat . So they eat humans as well. Hence they are kept in cages to keep us safe and then we can see them without any danger."
+
+  utter_col_snow:
+      - text: "Snow is white in color"
+
+  utter_dog_lick:
+    - text: "Dogs lick us to show their love and affection for us."
+
+  utter_cat_turn:
+    - text: "Caterpillars turn into butterfly."
+
+  utter_christ_mas:
+    - text: "Christmas is in december. Christmas eve is 24th december and christmas day is 25th december."
+
+  utter_what_christmas:
+    - text: "Christmas is a christian festival celebrating the birth of Jesus. It is a day of laughter, joy and presents."
+
+  utter_planet_ring:
+    - text: "Saturn is the only planet in the solar system to have a ring."
+
+  utter_country_kangaroos:
+    - text: "Australia is considered the home of the kangaroos."
+
+  utter_tallest_mountain:
+    - text: "Mount everest is the tallest mountatin in the world."
+
+  utter_largest_mammal:
+    - text: "Whale is the largest mammal in the world."
+
+  utter_what_herbivore:
+    - text: "Herbivores are animals that eat plants."
+
+  utter_plants_living:
+    - text: "Yes plants are living beings. They make thir own food and breathe in air."
+
+  utter_what_carnivore:
+    - text: "Carnivores are animals that eat meat."
+
+  utter_what_omnivore:
+    - text: "Omnivores are animals that eat both meat and plants.Omnivores are animals that eat both meat and plants."
+
+  utter_ostrich_fly:
+    - text: "No, an Ostrich cannot fly"
+
+  utter_penguin_fly:
+    - text: "No, a Penguin cannot fly"
+
+  utter_penguin_bird:
+    - text: "Yes Penguin is a bird"
+
+  utter_tallest_animal:
+    - text: "Giraffe is the tallest animal"
+
+  utter_plants_meat:
+    - text: "Yes some plants eat insects, frogs and even mice."
+  
+  utter_plants_grow:
+    - text: "Plants need light, water, air , nutrients, time and soace to grow."
+
+  utter_plants_grow_from:
+    - text: "Plants grow from a seed"
+
+  utter_deers_carnivores:
+    - text: "Deers are herbivores. They eat plants."
+
+  utter_milk_drink:
+    - text: "We mostly drink milk from cows, But goats , sheep, buffaloes and camels also povide milk."
+
+  utter_crow_eat:
+    - text: "Crows are carnivores.They eat meat."
+
+  utter_animal_wool:
+    - text: "Sheep provide wool that we use."
+
+  utter_slowest_animal:
+    - text: "A sloth is the slowest animal"
+
+  utter_color_frog:
+    - text: "A frog is green in colour"
+
+  utter_frogs_live:
+    - text: "Frogs can live on both land and water."
+
+  utter_much_sugar:
+    - text: "No you shoud never eat too much sugar. Too much sugar is bad for your body."
+
+  utter_parrots_talk:
+    - text: "Yes Parrots can talk."
+
+  utter_tv_bad:
+    - text: "Too much Tv is bad for your eyes.Also sit at a distance from the TV to watch it. Do not sit too close."
+
+  utter_fastest_animal:
+    - text: "Cheetah is the fastest animal."
+
+  utter_go_school:
+    - text: "Schools will help you learn about the world. There you will learn everything you need to know. It’s also a great place to make friends."
+
+  utter_do_homework:
+    - text: "Yes you should do your homework everyday. It helps you learn."
+
+  utter_listen_parents:
+    - text: "Your parents are much more older and wiser than you. They know whats best for you. So you should listen to them."
+
+  utter_eyes_have:
+    - text: "Human beings  have two eyes."
+  utter_ears_have:
+    - text: "Human beings  have two ears."
+
+  utter_ears_do:
+    - text: "Ears help us hear."
+
+  utter_eyes_do:
+    - text: "Eyes help us see the world."
+
+  utter_col_sunflower:
+    - text: "Sunflower is yellow in colour."
+
+  utter_live_oxygen:
+    - text: "We cannot live without oxygen."
+
+  utter_live_water:
+    - text: "We cannot live without water."
+
+  utter_live_food:
+    - text: "We cannot live without food."
+      
+  utter_nose_help:
+    - text: "Nose helps us smell surroundings and also breathe in air."
+
+  utter_five_senses:
+    - text: "The five senses are hearing, seeing, tasting, touvhing and smelling"
+
+  utter_tongue_help:
+    - text: "The tongue helps us taste and talk."
+
+  utter_traffic_signal:
+    - text: "The lights in a traffic signal are red, yellow and green."
+
+  utter_change_color:
+    - text: "Chameleon is the animal that can change colour."
+
+  utter_teeth_have:
+    - text: "As a baby you have 20 teeth. Adults have 32 teeth"
+
+  utter_teeth_do:
+    - text: "Teeth help us chew our food."
+
+  utter_use_food:
+    - text: "Food helps us get essential vitamins and nutrients. Food gives us energy"
+
+  utter_legs_have:
+    - text: "A human being has two legs."
+
+  utter_hands_have:
+    - text: "A human being has two hands."
+
+  utter_legs_do:
+    - text: "Legs help us walk."
+
+  utter_fingers_hands_have:
+    - text: "Human beings have four fingers and a thumb on each hand"
+
+  utter_fingers_legs_have:
+    - text: "Human beings have five toes on each foot"
+
+  utter_col_blood:
+    - text: "Blood is red in colour."
+
+  utter_heart_do:
+    - text: "Heart pumps blood to the entire body."
+
+  utter_much_sleep:
+    - text: "Kids ages 5-12 require nine to twelve hours of sleep each night."
+
+  utter_many_bones:
+    - text: "An adult has 206 bones."
+
+  utter_red_light:
+    - text: "Red light indicates that all the vehicles have to stop."
+
+  utter_green_light:
+    - text: "Green light indicates that the vehicles can go."
+
+  utter_col_zebra:
+    - text: "Zebra has black and white stripes."
+
+  utter_cross_road:
+    - text: "Look both sides. Make sure no cars and coming and then safely cross. At a traffic signal use a zebra crossing."
+
+  utter_heart_beat:
+    - text: "For an adult the heart beats 60-100 times a minute."
+
+  utter_house_ice:
+    - text: "An igloo is a house made of ice."
+
+  utter_largest_ocean:
+    - text: "Pacific ocean is the largest ocean in the world."
+
+  utter_red_planet:
+    - text: "Mars is the red planet."
+
+  utter_thirty_days:
+    - text: "April, June , September and November have 30 days."
+
+  utter_thirty_one_days:
+    - text: "January, March, May, July, August, October and December have 31 days each."
+
+  utter_letters_english:
+    - text: " English alphabet has twenty six (26) letters"
+
+  utter_vowels_english:
+    - text: "English alphabet has five vowels."
+
+  utter_breathe_in:
+    - text: "We breathe in with our nose and mouth."
+
+  utter_ship_desert:
+    - text: "Camel is the ship of the desert."
+
+  utter_col_peace:
+    - text: "White is the color of peace."
+
+  utter_books_place:
+    - text: "Books are kept in a library"
+
+  utter_festival_lights:
+    - text: "Diwali is the festival of lights."
+
+  utter_festival_colors:
+    - text: "Holi is the festival of colors."
+
+  utter_largest_forest:
+    - text: "Amazon is the largest forest in the world."
+
+  utter_land_sun:
+    - text: "Japan is known as the land of the rising sun."
+
+  utter_a_t_m:
+    - text: "Full form of ATM is any time money."
+
+  utter_skin_help:
+    - text: "Skin helps us touch and feel."
+
+  utter_why_sneeze:
+    - text: "Sneezing is our bodys ways of removing an irritation in the nose."
+
+  utter_food_diges:
+    - text: "Most of the food is digested in the small interstine."
+
+  utter_ghosts_real:
+    - text: "Ghosts are not real"
+
+  utter_monsters_real:
+    - text: "Monsters are not real"
+
+  utter_waters_taste:
+    - text: "Water is tasteless"
+
+  utter_waters_color:
+    - text: "Water is blue in color"
+
+  utter_garbage_streets:
+    - text: "Its not good at all to throw garbage on the streets and dirty your environment."
+
+  utter_feed_animals:
+    - text: "You should not feed animals in zoos,unless you are asked to do so by somebody who works there."
+
+  utter_col_apple:
+    - text: "Red is the color of Apple."
+
+  utter_col_banana:
+    - text: "Yellow is the color of Banana."
+
+  utter_col_mango:
+    - text: "Yellow is the color of Banana."
+
+  utter_col_grapes:
+    - text: "Grapes are green and purple in colour."
+
+  utter_car_have:
+    - text: "A car has four wheels."
+
+  utter_bicycle_have:
+    - text: "A bicycle has two wheels."
+
+  utter_tricycle_have:
+    - text: "A tri-cycle has three wheels"
+
+  utter_group_lions:
+    - text: "A group of lions is called a pride."
+
+  utter_group_wolves:
+    - text: "A group of wolves is called a pack."
+
+  utter_group_fish:
+    - text: "A group of fish is called a school."
+
+  utter_sick_people:
+    - text: "A doctor treats sick people."
+
+  utter_treat_ment:
+    - text: "People go to the hospital to get treated."
+
+  utter_things_fall:
+    - text: "This happens because of gravity."
+
+  utter_shape_wheel:
+    - text: "A wheel is circular in shape."
+
+  utter_shape_pizza:
+    - text: "A pizza is circular in shape."
+
+  utter_bees_make:
+    - text: "Bees make honey."
+
+  utter_silk_from:
+    - text: "Silk come sfrom silk worms"
+
+  utter_sharks_car:
+    - text: "Yes sharks are carnivores."
+
+  utter_measure_temp:
+    - text: "A thermometer is used to measure temperature."
+
+  utter_use_write:
+    - text: "We can write using pencils or pens."
+
+  utter_humans_tails:
+    - text: "No, humans don’t have tails."
+
+  utter_go_space:
+    - text: "Yes, we can go to space."
+
+  utter_tom_veg:
+    - text: "No, tomato is a fruit."
+
+  utter_fish_beathe:
+    - text: "Fish use their gills to breathe underwater."
+
+  utter_fish_carnivore:
+    - text: "Fishes like sharks and piranhas are carnivores."
+
+  utter_universe_start:
+    - text: "The universe started with a big bang."
+
+  utter_cars_run:
+    - text: "Cars run on petrol and diesel. But today they also run on electricity and solar energy"
+
+  utter_paper_from:
+    - text: "Paper come from trees."
+
+  utter_cow_eat:
+    - text: "A cow eats grass."
+
+  utter_ins_time:
+    - text: "We use a watch to check time."
+
+  utter_ani_talk:
+    - text: "No, animals cannot talk.."
+
+  utter_fish_land:
+    - text: "Fish cannot survive on land."
+
+  utter_dogs_live:
+    - text: "Dogs live in a kennel.."
+
+  utter_fast_transport:
+    - text: "Air transport is the fastest method of transport."
+
+  utter_walk_water:
+    - text: "No we cannot walk on water."
+
+  utter_transport_water:
+    - text: "We use boats to travel on water."
+
+  utter_baby_frog:
+    - text: " A baby frog is called a tadpole."
+
+  utter_baby_dog:
+    - text: " A baby dog is called a puppy."
+
+  utter_baby_cat:
+    - text: " A baby cat is called a cat."
+
+  utter_out_act:
+    - text: "Yes outdoor sports are very good for health . It’s also a source of fun."
+
+
+
+
+
+
+
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
