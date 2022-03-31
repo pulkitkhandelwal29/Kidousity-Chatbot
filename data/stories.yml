@@ -1,0 +1,1006 @@
+version: "3.1"
+
+stories:
+
+- story: greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+
+
+- story: color sun
+  steps:
+  - intent: sun_color
+  - action: utter_sun_color
+
+
+
+- story: dinosaurs
+  steps:
+  - intent: dinosaurs_go
+  - action: utter_dinosaurs_go
+
+- story: spider legs
+  steps:
+  - intent: legs_spider
+  - action: utter_legs_spider
+
+- story: ants bite
+  steps:
+  - intent: ants_bite
+  - action: utter_ants_bite
+
+- story: freeze water
+  steps:
+  - intent: freeze_water
+  - action: utter_freeze_water
+
+- story: colour stars
+  steps:
+  - intent: col_stars
+  - action: utter_col_stars
+
+- story: eat vegetables
+  steps:
+  - intent: eat_veggies
+  - action: utter_eat_veggies
+
+- story: late_stay
+  steps:
+  - intent: late_parents
+  - action: utter_late_parents
+
+- story: color of leaves
+  steps:
+  - intent: col_leaves
+  - action: utter_col_leaves
+
+
+- story: water_source
+  steps:
+  - intent: water
+  - action: utter_water
+
+- story: sick
+  steps:
+  - intent: people_sick
+  - action: utter_people_sick
+
+- story: god
+  steps:
+  - intent: god_house
+  - action: utter_god_house
+
+- story: we_cry
+  steps:
+  - intent: cry
+  - action: utter_cry
+
+- story: stars do
+  steps:
+  - intent: stars_do
+  - action: utter_stars_do
+
+- story: earth largest
+  steps:
+  - intent: earth_largest
+  - action: utter_earth_largest
+
+- story: many planets
+  steps:
+  - intent: many_planets
+  - action: utter_many_planets
+
+- story: pluto planet
+  steps:
+  - intent: pluto_planet
+  - action: utter_pluto_planet
+
+- story: eight planets
+  steps:
+  - intent: eight_planets
+  - action: utter_eight_planets
+
+- story: hottest planet
+  steps:
+  - intent: hottest_planet
+  - action: utter_hottest_planet
+
+
+- story: olden days
+  steps:
+  - intent: olden_days
+  - action: utter_olden_days
+
+- story: swear words
+  steps:
+  - intent: swear_words
+  - action: utter_swear_words
+
+- story: thoughts origin
+  steps:
+  - intent: thoughts_origin
+  - action: utter_thoughts_origin
+
+- story: money_where
+  steps:
+  - intent: money
+  - action: utter_money
+
+- story: cheese
+  steps:
+  - intent: moon_cheese
+  - action: utter_moon_cheese
+
+- story: sun bright
+  steps:
+  - intent: sun_bright
+  - action: utter_sun_bright
+
+- story: sun night
+  steps:
+  - intent: sun_night
+  - action: utter_sun_night
+
+- story: moon day
+  steps:
+  - intent: moon_day
+  - action: utter_moon_day
+
+- story: stars morning
+  steps:
+  - intent: stars_morning
+  - action: utter_stars_morning
+
+- story: stars sky
+  steps:
+  - intent: stars_sky
+  - action: utter_stars_sky
+
+- story: coldest planet
+  steps:
+  - intent: coldest_planet
+  - action: utter_coldest_planet
+
+
+- story: color sky
+  steps:
+  - intent: color_sky
+  - action: utter_color_sky
+
+- story: color hair
+  steps:
+  - intent: color_hair
+  - action: utter_color_hair
+
+- story: ocean water
+  steps:
+  - intent: ocean_water
+  - action: utter_ocean_water
+
+- story: colors rainbow
+  steps:
+  - intent: colors_rainbow
+  - action: utter_colors_rainbow
+
+- story: king jungle
+  steps:
+  - intent: king_jungle
+  - action: utter_king_jungle
+
+- story: many clouds
+  steps:
+  - intent: many_clouds
+  - action: utter_many_clouds
+
+- story: far sun
+  steps:
+  - intent: far_sun
+  - action: utter_far_sun
+
+- story: days week
+  steps:
+  - intent: days_week
+  - action: utter_days_week
+
+- story: seven week
+  steps:
+  - intent: seven_week
+  - action: utter_seven_week
+
+- story: hours day
+  steps:
+  - intent: hours_day
+  - action: utter_hours_day
+
+- story: dusk
+  steps:
+  - intent: is_dusk
+  - action: utter_is_dusk
+
+- story: sunrise
+  steps:
+  - intent: sun_rise
+  - action: utter_sun_rise
+
+- story: sunset
+  steps:
+  - intent: sun_set
+  - action: utter_sun_set
+
+- story: moonrise
+  steps:
+  - intent: moon_rise
+  - action: utter_moon_rise
+
+- story: moonset
+  steps:
+  - intent: moon_set
+  - action: utter_moon_set
+
+- story: monts year
+  steps:
+  - intent: months_year
+  - action: utter_months_year
+
+- story: monts of year
+  steps:
+  - intent: months_of_year
+  - action: utter_months_of_year
+
+- story: season number
+  steps:
+  - intent: seasons_number
+  - action: utter_seasons_number
+
+- story: season description
+  steps:
+  - intent: seasons_description
+  - action: utter_seasons_description
+
+- story: cldest season
+  steps:
+  - intent: coldest_season
+  - action: utter_coldest_season
+
+- story: hottest season
+  steps:
+  - intent: hottest_season
+  - action: utter_hottest_season
+
+- story: trees shed
+  steps:
+  - intent: trees_shed
+  - action: utter_trees_shed
+
+- story: in spring
+  steps:
+  - intent: in_spring
+  - action: utter_in_spring
+
+- story: in autumn
+  steps:
+  - intent: in_autumn
+  - action: utter_in_autumn
+
+- story: breathe
+  steps:
+  - intent: we_breathe
+  - action: utter_we_breathe
+
+- story: shortest month
+  steps:
+  - intent: shortest_month
+  - action: utter_shortest_month
+
+- story: leap year
+  steps:
+  - intent: leap_year
+  - action: utter_leap_year
+
+- story: days of year
+  steps:
+  - intent: days_year
+  - action: utter_days_year
+
+- story: weeks of year
+  steps:
+  - intent: weeks_year
+  - action: utter_weeks_year
+
+- story: days of leap year
+  steps:
+  - intent: days_leap_year
+  - action: utter_days_leap_year
+
+- story: largest continent
+  steps:
+  - intent: largest_continent
+  - action: utter_largest_continent
+
+- story: smallest continent
+  steps:
+  - intent: smallest_continent
+  - action: utter_smallest_continent
+
+- story: many continents
+  steps:
+  - intent: how_continents
+  - action: utter_how_continents
+
+- story: what continents
+  steps:
+  - intent: what_continents
+  - action: utter_what_continents
+
+- story: shape earth
+  steps:
+  - intent: shape_earth
+  - action: utter_shape_earth
+
+- story: color cloud
+  steps:
+  - intent: color_cloud
+  - action: utter_color_cloud
+
+- story: use of trees
+  steps:
+  - intent: use_trees
+  - action: utter_use_trees
+
+- story: cut trees
+  steps:
+  - intent: cut_trees
+  - action: utter_cut_trees
+
+- story: drink milk
+  steps:
+  - intent: drink_milk
+  - action: utter_drink_milk
+
+- story: lions zoo
+  steps:
+  - intent: lions_zoo
+  - action: utter_lions_zoo
+
+- story: color of snow
+  steps:
+  - intent: col_snow
+  - action: utter_col_snow
+
+- story: dog lick
+  steps:
+  - intent: dog_lick
+  - action: utter_dog_lick
+
+- story: cat turn
+  steps:
+  - intent: cat_turn
+  - action: utter_cat_turn
+
+- story: christmas
+  steps:
+  - intent: christ_mas
+  - action: utter_christ_mas
+
+- story: what christmas
+  steps:
+  - intent: what_christmas
+  - action: utter_what_christmas
+
+- story: planet ring
+  steps:
+  - intent: planet_ring
+  - action: utter_planet_ring
+
+- story: kangaroos
+  steps:
+  - intent: country_kangaroos
+  - action: utter_country_kangaroos
+
+- story: tallest mountain
+  steps:
+  - intent: tallest_mountain
+  - action: utter_tallest_mountain
+
+- story: largest mammal
+  steps:
+  - intent: largest_mammal
+  - action: utter_largest_mammal
+
+- story: what herbivore
+  steps:
+  - intent: what_herbivore
+  - action: utter_what_herbivore
+
+- story: plants living
+  steps:
+  - intent: plants_living
+  - action: utter_plants_living
+
+- story: what carnivore
+  steps:
+  - intent: what_carnivore
+  - action: utter_what_carnivore
+
+- story: what omnivore
+  steps:
+  - intent: what_omnivore
+  - action: utter_what_omnivore
+
+- story: ostrich fly
+  steps:
+  - intent: ostrich_fly
+  - action: utter_ostrich_fly
+
+- story: penguin fly
+  steps:
+  - intent: penguin_fly
+  - action: utter_penguin_fly
+
+- story: penguin bird
+  steps:
+  - intent: penguin_bird
+  - action: utter_penguin_bird
+
+- story: tallest animal
+  steps:
+  - intent: tallest_animal
+  - action: utter_tallest_animal
+
+- story: plants meat
+  steps:
+  - intent: plants_meat
+  - action: utter_plants_meat
+
+- story: plants growth
+  steps:
+  - intent: plants_grow
+  - action: utter_plants_grow
+
+- story: seed
+  steps:
+  - intent: plants_grow_from
+  - action: utter_plants_grow_from
+
+- story: deers carnivores
+  steps:
+  - intent: deers_carnivores
+  - action: utter_deers_carnivores
+
+- story: drink milk
+  steps:
+  - intent: milk_drink
+  - action: utter_milk_drink
+
+- story: crow eat
+  steps:
+  - intent: crow_eat
+  - action: utter_crow_eat
+
+- story: animal wool
+  steps:
+  - intent: animal_wool
+  - action: utter_animal_wool
+
+- story: slowest animal
+  steps:
+  - intent: slowest_animal
+  - action: utter_slowest_animal
+
+- story: color frog
+  steps:
+  - intent: color_frog
+  - action: utter_color_frog
+
+- story: frogs live
+  steps:
+  - intent: frogs_live
+  - action: utter_frogs_live
+
+- story: too much sugar
+  steps:
+  - intent: much_sugar
+  - action: utter_much_sugar
+
+- story: parrots talk
+  steps:
+  - intent: parrots_talk
+  - action: utter_parrots_talk
+
+- story: tv bad
+  steps:
+  - intent: tv_bad
+  - action: utter_tv_bad
+
+- story: fastest animal
+  steps:
+  - intent: fastest_animal
+  - action: utter_fastest_animal
+
+- story: go school
+  steps:
+  - intent: go_school
+  - action: utter_go_school
+
+- story: homework
+  steps:
+  - intent: do_homework
+  - action: utter_do_homework
+
+- story: listen parents
+  steps:
+  - intent: listen_parents
+  - action: utter_listen_parents
+
+- story: eyes have
+  steps:
+  - intent: eyes_have
+  - action: utter_eyes_have
+
+- story: ears have
+  steps:
+  - intent: ears_have
+  - action: utter_ears_have
+
+- story: ears do
+  steps:
+  - intent: ears_do
+  - action: utter_ears_do
+
+- story: eyes do
+  steps:
+  - intent: eyes_do
+  - action: utter_eyes_do
+
+- story: color sunflower
+  steps:
+  - intent: col_sunflower
+  - action: utter_col_sunflower
+
+- story: live oxygen
+  steps:
+  - intent: live_oxygen
+  - action: utter_live_oxygen
+
+- story: live water
+  steps:
+  - intent: live_water
+  - action: utter_live_water
+
+- story: live food
+  steps:
+  - intent: live_food
+  - action: utter_live_food
+
+- story: nose help
+  steps:
+  - intent: nose_help
+  - action: utter_nose_help
+
+- story: five senses
+  steps:
+  - intent: five_senses
+  - action: utter_five_senses
+
+- story: tongue help
+  steps:
+  - intent: tongue_help
+  - action: utter_tongue_help
+
+- story: traffic signal
+  steps:
+  - intent: traffic_signal
+  - action: utter_traffic_signal
+
+- story: change color
+  steps:
+  - intent: change_color
+  - action: utter_change_color
+
+- story: teeth have
+  steps:
+  - intent: teeth_have
+  - action: utter_teeth_have
+
+- story: teeth do
+  steps:
+  - intent: teeth_do
+  - action: utter_teeth_do
+
+- story: use food
+  steps:
+  - intent: use_food
+  - action: utter_use_food
+
+- story: legs have
+  steps:
+  - intent: legs_have
+  - action: utter_legs_have
+
+- story: hands have
+  steps:
+  - intent: hands_have
+  - action: utter_hands_have
+
+- story: fingers hands have
+  steps:
+  - intent: fingers_hands_have
+  - action: utter_fingers_hands_have
+
+- story: fingers legs have
+  steps:
+  - intent: fingers_legs_have
+  - action: utter_fingers_legs_have
+
+- story: color blood
+  steps:
+  - intent: col_blood
+  - action: utter_col_blood
+
+- story: heart use
+  steps:
+  - intent: heart_do
+  - action: utter_heart_do
+
+- story: much sleep
+  steps:
+  - intent: much_sleep
+  - action: utter_much_sleep
+
+- story: bones
+  steps:
+  - intent: many_bones
+  - action: utter_many_bones
+
+- story: red light
+  steps:
+  - intent: red_light
+  - action: utter_red_light
+
+- story: green light
+  steps:
+  - intent: green_light
+  - action: utter_green_light
+
+- story: color zebra
+  steps:
+  - intent: col_zebra
+  - action: utter_col_zebra
+
+- story: cross road
+  steps:
+  - intent: col_zebra
+  - action: utter_col_zebra
+
+- story: heart beat
+  steps:
+  - intent: heart_beat
+  - action: utter_heart_beat
+
+- story: Ice house
+  steps:
+  - intent: house_ice
+  - action: utter_house_ice
+
+- story: Largest Ocean
+  steps:
+  - intent: largest_ocean
+  - action: utter_largest_ocean
+
+- story: Red planet
+  steps:
+  - intent: red_planet
+  - action: utter_red_planet
+
+- story: Thirty days
+  steps:
+  - intent: thirty_days
+  - action: utter_thirty_days
+
+- story: Thirty One days
+  steps:
+  - intent: thirty_one_days
+  - action: utter_thirty_one_days
+
+- story: English alphabet
+  steps:
+  - intent: letters_english
+  - action: utter_letters_english
+
+- story: English vowels
+  steps:
+  - intent: vowels_english
+  - action: utter_vowels_english
+
+- story: Breathe in
+  steps:
+  - intent: breathe_in
+  - action: utter_breathe_in
+- story: Ship of desert
+  steps:
+  - intent: ship_desert
+  - action: utter_ship_desert
+
+- story: Peace
+  steps:
+  - intent: col_peace
+  - action: utter_col_peace
+
+- story: library
+  steps:
+  - intent: books_place
+  - action: utter_books_place
+
+- story: diwali
+  steps:
+  - intent: festival_lights
+  - action: utter_festival_lights
+
+- story: holi
+  steps:
+  - intent: festival_colors
+  - action: utter_festival_colors
+
+- story: largest forest
+  steps:
+  - intent: largest_forest
+  - action: utter_largest_forest
+
+- story: japan
+  steps:
+  - intent: land_sun
+  - action: utter_land_sun
+
+- story: atm
+  steps:
+  - intent: a_t_m
+  - action: utter_a_t_m
+
+- story: skin help
+  steps:
+  - intent: skin_help
+  - action: utter_skin_help
+
+- story: sneeze
+  steps:
+  - intent: why_sneeze
+  - action: utter_why_sneeze
+
+- story: digestion
+  steps:
+  - intent: food_diges
+  - action: utter_food_diges
+
+- story: ghosts
+  steps:
+  - intent: ghosts_real
+  - action: utter_ghosts_real
+
+- story: monsters
+  steps:
+  - intent: monsters_real
+  - action: utter_monsters_real
+
+- story: water taste
+  steps:
+  - intent: waters_taste
+  - action: utter_waters_taste
+
+- story: water color
+  steps:
+  - intent: waters_color
+  - action: utter_waters_color
+
+- story: garbage
+  steps:
+  - intent: garbage_streets
+  - action: utter_garbage_streets
+
+- story: feed animals
+  steps:
+  - intent: feed_animals
+  - action: utter_feed_animals
+
+- story: apple
+  steps:
+  - intent: col_apple
+  - action: utter_col_apple
+
+- story: banana
+  steps:
+  - intent: col_banana
+  - action: utter_col_banana
+
+- story: mango
+  steps:
+  - intent: col_mango
+  - action: utter_col_mango
+
+- story: grapes
+  steps:
+  - intent: col_grapes
+  - action: utter_col_grapes
+
+- story: car
+  steps:
+  - intent: car_have
+  - action: utter_car_have
+
+- story: bicycle
+  steps:
+  - intent: bicycle_have
+  - action: utter_bicycle_have
+
+- story: tricycle
+  steps:
+  - intent: tricycle_have
+  - action: utter_tricycle_have
+
+- story: group lion
+  steps:
+  - intent: group_lions
+  - action: utter_group_lions
+
+- story: group wolves
+  steps:
+  - intent: group_wolves
+  - action: utter_group_wolves
+
+- story: group fish
+  steps:
+  - intent: group_fish
+  - action: utter_group_fish
+
+- story: sick people
+  steps:
+  - intent: sick_people
+  - action: utter_sick_people
+
+- story: treatmant
+  steps:
+  - intent: treat_ment
+  - action: utter_treat_ment
+
+- story: fall
+  steps:
+  - intent: things_fall
+  - action: utter_things_fall
+
+- story: wheel
+  steps:
+  - intent: shape_wheel
+  - action: utter_shape_wheel
+
+- story: pizza
+  steps:
+  - intent: shape_pizza
+  - action: utter_shape_pizza
+
+- story: honey
+  steps:
+  - intent: bees_make
+  - action: utter_bees_make
+
+- story: silk
+  steps:
+  - intent: silk_from
+  - action: utter_silk_from
+
+- story: sharks
+  steps:
+  - intent: sharks_car
+  - action: utter_sharks_car
+
+- story: measure temp
+  steps:
+  - intent: measure_temp
+  - action: utter_measure_temp
+
+- story: write
+  steps:
+  - intent: use_write
+  - action: utter_use_write
+
+- story: tail
+  steps:
+  - intent: humans_tails
+  - action: utter_humans_tails
+
+- story: space
+  steps:
+  - intent: go_space
+  - action: utter_go_space
+
+- story: tomato
+  steps:
+  - intent: tom_veg
+  - action: utter_tom_veg
+
+- story: fish breathe
+  steps:
+  - intent: fish_breathe
+  - action: utter_fish_beathe
+
+- story: fish carnivore
+  steps:
+  - intent: fish_carnivore
+  - action: utter_fish_carnivore
+
+- story: universe start
+  steps:
+  - intent: universe_start
+  - action: utter_universe_start
+
+- story: cars run
+  steps:
+  - intent: cars_run
+  - action: utter_cars_run
+
+- story: paper
+  steps:
+  - intent: paper_from
+  - action: utter_paper_from
+
+- story: cow eat
+  steps:
+  - intent: cow_eat
+  - action: utter_cow_eat
+
+- story: time
+  steps:
+  - intent: ins_time
+  - action: utter_ins_time
+
+- story: animal talk
+  steps:
+  - intent: ani_talk
+  - action: utter_fish_land
+
+- story: dogs live
+  steps:
+  - intent: dogs_live
+  - action: utter_dogs_live
+
+- story: fast transport
+  steps:
+  - intent: fast_transport
+  - action: utter_fast_transport
+
+- story: walk water
+  steps:
+  - intent: walk_water
+  - action: utter_walk_water
+
+- story: transport water
+  steps:
+  - intent: transport_water
+  - action: utter_transport_water
+
+- story: baby frog
+  steps:
+  - intent: baby_frog
+  - action: utter_baby_frog
+
+- story: baby dog
+  steps:
+  - intent: baby_dog
+  - action: utter_baby_dog
+
+- story: baby cat
+  steps:
+  - intent: baby_cat
+  - action: utter_baby_cat
+
+- story: outdoor
+  steps:
+  - intent: out_act
+  - action: utter_out_act
