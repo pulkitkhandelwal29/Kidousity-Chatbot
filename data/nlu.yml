@@ -1,0 +1,1212 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    
+
+- intent: video_games
+  examples: |
+    - Are video games good for me
+    - Is video game good for me
+    - Should i play video games in excess
+    - Are video game good
+    - is vedio game good
+    
+- intent: sun_color
+  examples: |
+    - What is the color of the sun
+    - What color is sun
+    - what color is the sun
+    - What is the colour of the sun
+    - What colour is sun
+    - what color is the sun
+
+- intent: dinosaurs_go
+  examples: |
+    - Where did dinosaurs go
+    - where go dinosaurs
+    - Where did dinasaurs go
+    - Where are dinosaurs
+    - what happen to dinosaurs
+    - where go dinosaurs
+    - What happened to dinosaurs
+- intent: late_parents
+  examples: |
+    - Why cant i stay up as late as my parents
+    - Why do i have to sleep early
+    - Why parents sleep late but i sleep early
+
+- intent: water
+  examples: |
+    - where does water come from
+    - Where does water come from
+    - What is origin of water
+
+- intent: people_sick
+  examples: |
+    - Why do people get sick
+    - Why do people get ill
+    - why do people get sick
+    - why do i get sick
+
+- intent: god_house
+  examples: |
+    - Where does god live
+    - Where is gods house
+    - where does god stay
+
+- intent: cry
+  examples: |
+    - Why do we cry
+    - Why we cry
+    - why do i cry
+
+- intent: olden_days
+  examples: |
+    - In the olden days was everything black and white
+    - Was the world black and white
+    
+- intent: swear_words
+  examples: |
+    - Is it good to say swear words
+    - Are swear words goods
+    - Is it good to swear
+    
+- intent: thoughts_origin
+  examples: |
+    - Where do thoughts come from
+    - What is origin of thoughts
+    - Where are thoughts coming from
+
+- intent: money
+  examples: |
+    - What is money
+    - what money
+
+- intent: moon_cheese
+  examples: |
+    - Is the moon made of cheese
+    - Moon is made of cheese
+
+- intent: sun_bright
+  examples: |
+    - Why is the sun so bright
+    - Whys the sun bright
+    - Why is the sun brite
+
+- intent: sun_night
+  examples: |
+    - Where does the sun go at night
+    - Where is sun at night
+    - Where sun goes at night
+
+- intent: moon_day
+  examples: |
+    - Where is the moon during the day
+    - Where is moon in the morning
+    - Where is moon in the afternoon
+    - Where is moon in the day
+
+- intent: stars_morning
+  examples: |
+    - Where are stars in the morning
+    - Where are stars in the day
+    - Where do stars go in the day
+    - Where are stars in the afternoon
+
+- intent: stars_sky
+  examples: |
+    - How many stars are in the sky
+    - How many stars in the sky
+    - Number of stars in the sky
+
+- intent: stars_do
+  examples: |
+    - What do stars do
+    - What are stars doing
+    - Whats stars doing
+    - what stars do
+
+- intent: earth_largest
+  examples: |
+    - Is earth the largest planet
+    - Is earth largest planet
+
+- intent: many_planets
+  examples: |
+    - How many planets are there
+    - How many planets in our solar system
+    - How many planets
+
+- intent: pluto_planet
+  examples: |
+    - is pluto a planet
+    - pluto planet
+
+- intent: eight_planets
+  examples: |
+    - What are the eight planets
+    - who are the eight planets
+    - what are the eight planets in our solar system
+
+- intent: hottest_planet
+  examples: |
+    - Is mercury the hottest planet
+    - is mercury the hottest
+
+- intent: coldest_planet
+  examples: |
+    - Which is the coldest planet
+    - Which planet is the coldest
+
+- intent: color_sky
+  examples: |
+    - What is the colour of the sky
+    - What is the color of the sky
+    - What colour is the sky
+
+- intent: color_hair
+  examples: |
+    - What is the colour of my hair
+    - What is the color of my hair
+    - What is the colour of hair
+    - What is hair color
+
+- intent: ocean_water
+  examples: |
+    - Can I drink ocean water
+    - Is it okay to drink ocean water
+    - Can ocean water be drunk
+
+- intent: colors_rainbow
+  examples: |
+    - How many colours are there in a rainbow
+    - How many colors are there in a rainbow
+    - How many colors in a rainbow
+
+- intent: king_jungle
+  examples: |
+    - Who is the king of the jungle
+    - Which animal is the king of the jungle
+
+- intent: many_clouds
+  examples: |
+    - How many clouds in the sky
+    - How many clouds are there in the sky
+
+- intent: far_sun
+  examples: |
+    - How far is the earth from the sun
+    - What is the distance of the earth from the sun
+    - What is the distance of the sun from the earth
+
+- intent: days_week
+  examples: |
+    - How many days are there in a week
+    - How many days in a week
+    - A week has how many days
+
+- intent: seven_week
+  examples: |
+    - What are the seven days of the week
+    - What are the days of the week
+
+- intent: hours_day
+  examples: |
+    - How many hours are there in a day
+    - How many hours in a day
+    - A day has how many hours
+
+- intent: is_dusk
+  examples: |
+    - What is dusk
+    - Whats dusk
+
+- intent: sun_rise
+  examples: |
+    - Where does the sun rise
+    - Which direction does the sun rise in
+
+- intent: sun_set
+  examples: |
+    - Where does the sun set
+    - Which direction does the sun set in
+
+- intent: moon_rise
+  examples: |
+    - Where does the moon rise
+    - Which direction does the moon rise in
+
+- intent: moon_set
+  examples: |
+    - Where does the moon set
+    - Which direction does the moon set in
+
+- intent: months_year
+  examples: |
+    - How many months are there in a year
+    - A year has how many months
+    - How many months in a year
+
+- intent: months_of_year
+  examples: |
+    - What are the months of the year
+    - Name the months of the year
+    - What are the months
+
+- intent: seasons_number
+  examples: |
+    - How many seasons are there
+    - How many seasons
+    - What is the number of seasons
+
+- intent: seasons_description
+  examples: |
+    - What are the four seasons
+    - Name the four seasons
+    - Whats the seasons
+
+- intent: coldest_season
+  examples: |
+    - Which is the coldest season
+    - Name the coldest season
+
+- intent: hottest_season
+  examples: |
+    - Which is the hottest season
+    - Name the hottest season
+
+- intent: trees_shed
+  examples: |
+    - When do trees shed their leaves
+    - In what seasons do trees shed their leaves
+
+- intent: trees_shed
+  examples: |
+    - When do trees shed their leaves
+    - In what seasons do trees shed their leaves
+
+- intent: in_spring
+  examples: |
+    - What happens in spring
+    - What happens in spring season
+
+- intent: in_autumn
+  examples: |
+    - What happens in autumn
+    - What happens in autumn season
+
+- intent: we_breathe
+  examples: |
+    - What do we breathe
+    - What do we breathe in
+
+- intent: shortest_month
+  examples: |
+    - Which is the shortest month
+    - Which month is the shortest
+    - Which months has the least days
+
+- intent: leap_year
+  examples: |
+    - What is a leap year
+    - What is leap year
+
+- intent: days_year
+  examples: |
+    - How many days in a year
+    - A year has how many days
+
+- intent: weeks_year
+  examples: |
+    - How many weeks in a year
+    - A year has how many weeks
+
+- intent: days_leap_year
+  examples: |
+    - How many days in a leap year
+    - How many days does a leap year have
+
+- intent: largest_continent
+  examples: |
+    - Which is the largest continent
+    - Name the largest continent
+
+- intent: smallest_continent
+  examples: |
+    - Which is the smallest continent
+    - Name the smallest continent
+
+- intent: how_continents
+  examples: |
+    - How many continents are there in the world
+    - What is the number of continents in the world
+
+- intent: what_continents
+  examples: |
+    - What are the seven contnents
+    - What are the continents
+    - Name the continents
+
+- intent: shape_earth
+  examples: |
+    - What is the shape of the earth
+    - Whats the eaths shape
+
+- intent: color_cloud
+  examples: |
+    - What is the colour of clouds
+    - What is the color of clouds
+    - What color are clouds
+    - What colour are clouds
+
+- intent: use_trees
+  examples: |
+    - What is the use of trees
+    - What use are trees
+
+- intent: cut_trees
+  examples: |
+    - Should we cut trees
+    - Is it good to cut trees
+
+- intent: col_leaves
+  examples: |
+    - What is the colour of leaves
+    - What color are leaves
+    - What colour are leaves
+    - What is the color of leaves
+
+- intent: legs_spider
+  examples: |
+    - How many legs does a spider have
+    - How many legs of spider
+    - What is the number of leagues spider has
+
+- intent: ants_bite
+  examples: |
+    - Do ants bite
+    - Can ants bite
+
+- intent: ants_bite
+  examples: |
+    - Do ants bite
+    - Can ants bite
+
+- intent: freeze_water
+  examples: |
+    - What happens when we freeze water
+    - When water freezes what happens
+
+- intent: col_stars
+  examples: |
+    - What is the color of stars
+    - Whats the colour of stars
+    - What color are stars
+    - What colour are stars
+
+- intent: eat_veggies
+  examples: |
+    - Why should I eat vegetables
+    - Why should i eat veggies
+    - Why to eat vegetables
+
+- intent: drink_milk
+  examples: |
+    - Why should I drink milk
+    - Why is milk good for me
+    - Why milk
+
+- intent: lions_zoo
+  examples: |
+    - Why are lions kept in zoo
+    - Why keep lions in zoo
+
+- intent: col_snow
+  examples: |
+    - What is the color of snow
+    - What is snows color
+    - Whats the colour of snow
+    - What is snows colour
+
+- intent: dog_lick
+  examples: |
+    - Why does my dog lick me
+    - Why my dog licks me
+
+- intent: cat_turn
+  examples: |
+    - What do caterpillars turn into
+    - Caterpillars turn into
+    - What comes after caterpillars
+
+- intent: christ_mas
+  examples: |
+    - When is Christmas
+    - What days is Christmas
+    - When is Christmas day
+
+- intent: what_christmas
+  examples: |
+    - What is Christmas
+    - Define Christmas
+    - Whats Christmas
+
+- intent: planet_ring
+  examples: |
+    - What planet in the solar system has a ring
+    - Which planet in teh solar system has a ring
+    - Whats the planet with a ring
+
+- intent: country_kangaroos
+  examples: |
+    - Which country has Kangaroos
+    - Which country has kangaroos
+    - Whats the country with Kangaroos
+
+- intent: tallest_mountain
+  examples: |
+    - Which is the tallest mountain in the world
+    - Tallest Mountain in the world
+    - Whats the tallest mountain in the world
+
+- intent: largest_mammal
+  examples: |
+    - Which is the largest mammal in the world
+    - Whats the largest mammal
+    - Whos the largest mammal
+
+- intent: what_herbivore
+  examples: |
+    - What is a herbivore
+    - Whats a herbivore
+    - Whos a herbivore
+
+- intent: plants_living
+  examples: |
+    - Are plants living
+    - Are plants living being
+    - Are plants living or non living
+
+- intent: what_carnivore
+  examples: |
+    - What is a carnivore
+    - Whats a carnivore
+    - Whos a carnivore
+
+- intent: what_omnivore
+  examples: |
+    - What is an omnivore
+    - Whats a omnivore
+    - Whos an omnivore
+
+- intent: ostrich_fly
+  examples: |
+    - Can an Ostrich fly
+    - Can Ostrich fly
+    - Can ostrich fly
+
+- intent: penguin_fly
+  examples: |
+    - Can a Penguin fly
+    - Can Penguins fly
+    - Can Penguin fly
+
+- intent: penguin_bird
+  examples: |
+    - Is penguin a bird
+    - Is Penguin a bird
+
+- intent: tallest_animal
+  examples: |
+    - Which is the tallest animal
+    - Whos the tallest animal
+    - Name the tallest animal
+
+- intent: plants_meat
+  examples: |
+    - Do plants eat meat
+    - Can plants eat meat
+
+- intent: plants_grow
+  examples: |
+    - What do plants need to grow
+    - What is essential for plants to grow
+    - Plants need what to grow
+    - What plant needs to become big
+
+- intent: plants_grow_from
+  examples: |
+    - What do plants grow from
+    - What plants grow from
+
+- intent: deers_carnivores
+  examples: |
+    - Are deers carnivores
+    - Is deer a carnivore
+
+- intent: milk_drink
+  examples: |
+    - Which animal provides the milk we drink
+    - Which animal provides drinking milk
+
+- intent: crow_eat
+  examples: |
+    - Is crow a herbivore,carnivore or omnivore
+    - Is Crow a Herbivore,Carnivore or Omnivore
+    - What does Crow eat
+
+- intent: animal_wool
+  examples: |
+    - Which animal provides wool
+    - Where does wool come from
+    - What is the source of wool
+
+- intent: slowest_animal
+  examples: |
+    - Which is the slowest animal
+    - Whats the slowest animal
+    - Name the slowest animal
+
+- intent: color_frog
+  examples: |
+    - What is the color of a frog
+    - What is the colour of a frog
+    - Whats a frogs colour
+
+- intent: frogs_live
+  examples: |
+    - Where do frogs live
+    - Where is a frogs house
+
+- intent: much_sugar
+  examples: |
+    - Is too much sugar good for me
+    - Is it good to have too much sugar
+    - Can i eat too much sugar
+
+- intent: parrots_talk
+  examples: |
+    - Can parrots talk
+    - Do parrots talk
+    - Is parrots can talk
+
+- intent: tv_bad
+  examples: |
+    - Why is too much tv bad
+    - Why is it bad to watch too much TV
+    - Why is it bad to watch too much tv
+
+- intent: fastest_animal
+  examples: |
+    - Which is the fastest animal
+    - Whats the fastest animal
+    - Name the fastest animal
+
+- intent: go_school
+  examples: |
+    - Why should i go to school
+    - why is it important to go to school
+    - why should we go to school
+
+- intent: do_homework
+  examples: |
+    - Should I do my homework everyday
+    - must i do homework everyday
+
+- intent: listen_parents
+  examples: |
+    - Why should I listen to my parents
+    - Why to listen to parents
+    - Why listen to parents
+
+- intent: eyes_have
+  examples: |
+    - How many eyes do I have
+    - How many eyes human beings have
+    - How many eyes
+
+- intent: ears_have
+  examples: |
+    - How many ears do I have
+    - How many ears human beings have
+    - How many ears
+
+- intent: eyes_do
+  examples: |
+    - What do eyes do
+    - What is use of eyes
+
+- intent: ears_do
+  examples: |
+    - What do ears do
+    - What is use of ears
+
+- intent: col_sunflower
+  examples: |
+    - What colour is a sunflower
+    - What color is a sunflower
+    - What color is a sunflower
+
+- intent: live_oxygen
+  examples: |
+    - Can we live without oxygen
+    - Can we stay without oxygen
+
+
+- intent: live_water
+  examples: |
+    - Can we live without water
+    - Can we stay without water
+
+- intent: live_food
+  examples: |
+    - Can we live without food
+    - Can we stay without food
+
+- intent: nose_help
+  examples: |
+    - What does nose help us do
+    - Whats use of nose
+    - What do nose do
+
+- intent: five_senses
+  examples: |
+    - What are the five senses
+    - Whats the five senses
+    - Name the five senses
+
+- intent: tongue_help
+  examples: |
+    - What does tongue help us do
+    - Whats use of tongue
+    - What do tongue do
+
+- intent: traffic_signal
+  examples: |
+    - What are the lights in a traffic signal
+    - Name the lights in a traffic signal
+
+- intent: change_color
+  examples: |
+    - Which animal can change colour
+    - Name animal that changes color
+    - Which animal can change color
+
+- intent: teeth_have
+  examples: |
+    - How many teeth do I have
+    - How many teeth human beings have
+    - How many teeth
+
+- intent: teeth_do
+  examples: |
+    - What do teeth do
+    - What is use of teeth
+
+- intent: use_food
+  examples: |
+    - Why do we need food?
+    - Whats use of food
+
+- intent: legs_have
+  examples: |
+    - How many legs do I have
+    - How many legs human beings have
+    - How many leg
+
+- intent: hands_have
+  examples: |
+    - How many hands do I have
+    - How many hands human beings have
+    - How many hand
+
+
+- intent: legs_do
+  examples: |
+    - What do legs do
+    - What is use of legs
+
+- intent: fingers_legs_have
+  examples: |
+    - How many fingers do i have in my legs
+    - How many fingers do human beings have in legs
+    - How many fingers in leg
+
+- intent: fingers_hands_have
+  examples: |
+    - How many fingers do i have in my hands
+    - How many fingers do human beings have in hands
+    - How many fingers in hand
+
+- intent: col_blood
+  examples: |
+    - What colour is blood
+    - What color is blood
+    - What color is a blood
+
+- intent: heart_do
+  examples: |
+    - What do heart do
+    - What is use of heart
+
+- intent: much_sleep
+  examples: |
+    - How much do I need to sleep
+    - How much sleep do i need
+    - How much to sleep
+
+- intent: many_bones
+  examples: |
+    - How many bones does an adult have
+    - How many bones adult have
+    - Number of bones adult have
+
+- intent: what_red_light
+  examples: |
+    - What is red light in a traiffic signal
+    - Whats the red light at a signal of traffic
+
+- intent: what_grren_light
+  examples: |
+    - What is green light in a traiffic signal
+    - Whats the green light at a signal of traffic
+    
+- intent: col_zebra
+  examples: |
+    - What colour is zebra
+    - What color is zebra
+    - What color is a zebra
+
+- intent: cross_road
+  examples: |
+    - What should I do before crossing a road
+    - How should i cross road
+
+- intent: heart_beat
+  examples: |
+    - How many times does the heart beat in a minute
+    - Number of times heart beats in a minute
+
+- intent: house_ice
+  examples: |
+    - What is a house made of ice
+    - Which house is made of ice
+
+- intent: largest_ocean
+  examples: |
+    - Which is the largest ocean in the world
+    - Name the largest ocean in the world
+
+- intent: red_planet
+  examples: |
+    - Which planet is the red planet
+    - Name the red planet
+
+- intent: thirty_days
+  examples: |
+    - Which months have 30 days
+    - Name months having 30 days
+    - Which months have thirty days
+
+- intent: thirty_one_days
+  examples: |
+    - Which months have 31 days
+    - Name months having 31 days
+    - Which months have thirty one days
+
+- intent: letters_english
+  examples: |
+    - How many letters are in the english alphabet
+    - Number of letters in english alphabet
+
+- intent: vowels_english
+  examples: |
+    - How many vowels in the english alphabet
+    - Number of vowels in english alphabet
+    - How many vowels
+
+- intent: breathe_in
+  examples: |
+    - We breathe in with our
+    - What do we breathe in with
+    - What do humans breathe in with
+
+- intent: ship_desert
+  examples: |
+    - Which animal is the ship of the desert
+    - Name the ship of the desert
+
+- intent: col_peace
+  examples: |
+    - Which colour symbolizes peace
+    - What is the colour of peace
+
+- intent: books_place
+  examples: |
+    - What is the place where books are kept
+    - Where are books kept
+
+- intent: festival_lights
+  examples: |
+    - What is the festival of lights
+    - Name the festival of lights
+
+- intent: festival_colors
+  examples: |
+    - What is the festival of colors
+    - Name the festival of colours
+    - What is the festival of colours
+
+- intent: largest_forest
+  examples: |
+    - Which is the largest forest in the world
+    - Name the largest forest in the world
+
+- intent: land_sun
+  examples: |
+    - Which is the land of the rising sun
+    - What is the land of the rising sun
+    - Name the land of the rising sun
+
+- intent: a_t_m
+  examples: |
+    - What is the full form of ATM
+    - Give full form of ATM
+
+- intent: skin_help
+  examples: |
+    - What does skin help us do
+    - Give use of skin
+
+- intent: why_sneeze
+  examples: |
+    - Why do I sneeze
+    - Why do humans sneeze
+
+- intent: food_diges
+  examples: |
+    - Where does food digestion take place
+    - Where does food get digested
+
+- intent: ghosts_real
+  examples: |
+    - Are ghosts real
+    - ghosts are real or
+
+- intent: monsters_real
+  examples: |
+    - Are monsters real
+    - monsters are real or
+
+- intent: waters_taste
+  examples: |
+    - Does water taste good
+    - Is the taste of water good
+
+- intent: waters_color
+  examples: |
+    - What is the colour of water
+    - What is the color of water
+
+- intent: garbage_streets
+  examples: |
+    - Is it good to throw garbage on the streets
+    - Should we throw garbage on the streets 
+
+- intent: feed_animals
+  examples: |
+    - Is it good to feed animals in the zoo
+    - Should we feed animals in the zoo
+
+- intent: col_apple
+  examples: |
+    - What colour is apple
+    - What color is apple
+    - What color is a apple
+    - What is the color of apple
+
+- intent: col_mango
+  examples: |
+    - What colour is mango
+    - What color is mango
+    - What color is a mango
+    - What is the color of mango
+
+- intent: col_banana
+  examples: |
+    - What colour is banana
+    - What color is banana
+    - What color is a banana
+    - What is the color of banana
+
+- intent: col_grapes
+  examples: |
+    - What colour are grapes
+    - What color are grapes
+    - What color are grapes
+    - What is the color of grapes
+
+- intent: car_have
+  examples: |
+    - How many wheels does car have
+    - Number of wheels car has
+
+- intent: bicycle_have
+  examples: |
+    - How many wheels does bicycle have
+    - Number of wheels bicycle has
+
+- intent: tricycle_have
+  examples: |
+    - How many wheels does tricycle  have
+    - Number of wheels tricycle has
+
+- intent: group_lions
+  examples: |
+    - What is a group of lions called
+    - Group of lions is called
+
+- intent: group_wolves
+  examples: |
+    - What is a group of wolves called
+    - Group of wolves is called
+
+- intent: group_fish
+  examples: |
+    - What is a group of fish called
+    - Group of fish is called
+
+- intent: sick_people
+  examples: |
+    - Who treats sick people
+    - Sick people are treated by whom
+
+- intent: treat_ment
+  examples: |
+    - Where do sick people go to get treated
+    - Place where wick people go
+
+- intent: things_fall
+  examples: |
+    - Why do things fall when you drop them
+    - Why things fall
+
+- intent: shape_wheel
+  examples: |
+    - What is the shape of a wheel
+    - What shape is a wheel
+
+- intent: shape_pizza
+  examples: |
+    - What is the shape of a pizza
+    - What shape is a pizza
+
+- intent: bees_make
+  examples: |
+    - What do bees make
+    - What bees make
+
+- intent: silk_from
+  examples: |
+    - Where does silk come from
+    - What is origin of silk
+
+- intent: sharks_car
+  examples: |
+    - Are sharks carnivores
+    - Do shars eat meat
+
+- intent: measure_temp
+  examples: |
+    - What is used to measure temperature
+    - Whats used to measure temperature
+
+- intent: use_write
+  examples: |
+    - What do we use to write
+    - What do we write with
+
+- intent: humans_tails
+  examples: |
+    - Do humans have tails
+    - Can humans have tails
+
+- intent: go_space
+  examples: |
+    - Can we go to space
+    - Is it possible to go to space
+
+- intent: tom_veg
+  examples: |
+    - Is tomato a vegetable
+    - Is tomato a fruit
+
+- intent: fish_breathe
+  examples: |
+    - How do fish breathe underwater
+    - How fish breathe underwater
+
+- intent: fish_carnivore
+  examples: |
+    - Are fsh carnivores
+    - Are fsh carnivorus
+
+- intent: universe_start
+  examples: |
+    - How did the universe start
+    - How universe started
+
+- intent: cars_run
+  examples: |
+    - What do cars run on
+    - What cars run on
+
+- intent: paper_from
+  examples: |
+    - Where does paper come from
+    - What is the origin of paper
+
+- intent: cow_eat
+  examples: |
+    - What does cow eat
+    - What cow eats
+
+- intent: ins_time
+  examples: |
+    - What instrument is used to check time
+    - What do we check time with
+
+- intent: ani_talk
+  examples: |
+    - Can animals talk
+    - Do animals talk
+
+
+- intent: fish_land
+  examples: |
+    - Can fish survive on land
+    - Do fish survive on land
+
+- intent: dogs_live
+  examples: |
+    - Where do dogs live
+    - Where dogs live
+
+- intent: fast_transport
+  examples: |
+    - What is the fastest transport
+    - What is the fastest method of transport
+
+- intent: walk_water
+  examples: |
+    - Can we walk on water
+    - Is it possible to walk on water
+
+- intent: transport_water
+  examples: |
+    - What transport is used to travel on water
+    - How do we travel on water
+
+- intent: baby_frog
+  examples: |
+    - What is a baby frog called
+    - What do we call a baby frog
+
+- intent: baby_dog
+  examples: |
+    - What is a baby dog called
+    - What do we call a baby dog
+
+- intent: baby_cat
+  examples: |
+    - What is a baby cat called
+    - What do we call a baby cat
+
+- intent: out_act
+  examples: |
+    - Are outdoor activities good
+    - Is outdoor sports good
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+  
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+   
+
+
+ 
+
+    
+
+
+
+
+    
+ 
+
+
+
+
+
+
+  
