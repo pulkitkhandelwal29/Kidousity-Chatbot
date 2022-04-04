@@ -54,7 +54,7 @@ ROOT_URLCONF = 'kidousity.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['kidousity/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
