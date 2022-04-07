@@ -15,7 +15,6 @@ stories:
 
 
 
-
 - story: color sun
   steps:
   - intent: sun_color
@@ -190,6 +189,11 @@ stories:
   steps:
   - intent: colors_rainbow
   - action: utter_colors_rainbow
+  
+- story: different_colors rainbow
+  steps:
+  - intent: different_colors_rainbow
+  - action: utter_different_colors_rainbow
 
 - story: king jungle
   steps:
