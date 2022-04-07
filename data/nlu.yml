@@ -16,6 +16,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    
 - intent: goodbye
   examples: |
     - cu
@@ -43,9 +44,8 @@ nlu:
     - What is the color of the sun
     - What color is sun
     - what color is the sun
-    - What is the colour of the sun
-    - What colour is sun
-    - what color is the sun
+    - What is the colour of sun
+    - What color sun
 
 - intent: dinosaurs_go
   examples: |
@@ -56,6 +56,7 @@ nlu:
     - what happen to dinosaurs
     - where go dinosaurs
     - What happened to dinosaurs
+    
 - intent: late_parents
   examples: |
     - Why cant i stay up as late as my parents
@@ -72,7 +73,6 @@ nlu:
   examples: |
     - Why do people get sick
     - Why do people get ill
-    - why do people get sick
     - why do i get sick
 
 - intent: god_house
@@ -89,7 +89,7 @@ nlu:
 
 - intent: olden_days
   examples: |
-    - In the olden days was everything black and white
+    - In the older days was everything black and white
     - Was the world black and white
     
 - intent: swear_words
@@ -113,6 +113,7 @@ nlu:
   examples: |
     - Is the moon made of cheese
     - Moon is made of cheese
+    - moon cheese
 
 - intent: sun_bright
   examples: |
@@ -209,6 +210,12 @@ nlu:
     - How many colours are there in a rainbow
     - How many colors are there in a rainbow
     - How many colors in a rainbow
+    
+- intent: different_colors_rainbow
+  examples: |
+    - How many different colours are there in a rainbow
+    - How many different are there in a rainbow
+    - How many colors different in a rainbow
 
 - intent: king_jungle
   examples: |
